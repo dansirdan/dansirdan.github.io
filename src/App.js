@@ -1,23 +1,28 @@
-import React from 'react';
-import { About, Main, Projects, Skills } from './sections/index';
-import CustomFooter from './components/Footer';
-import CustomFAB from './components/CustomFAB';
-import BlockQuote from './components/BlockQuote';
-// import './App.css';
+import React from "react";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import {
+  About,
+  Footer,
+  Header,
+  Pitch,
+  Projects,
+  Quote,
+  Skills,
+} from "./dev_components";
 
 const App = () => {
-
   return (
-    <div>
-      <Main />
-      <BlockQuote />
+    <React.Fragment>
+      <CssBaseline />
+      <Header />
+      <Quote />
       <About />
+      <Pitch />
       <Skills />
       <Projects />
-      <CustomFAB />
-      <CustomFooter />
-    </div>
-  )
+      <Footer />
+    </React.Fragment>
+  );
 };
 
 export default App;
