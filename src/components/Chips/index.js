@@ -4,7 +4,7 @@ import './style.css';
 
 const Chips = () => {
 
-  const skills = ['MERN', 'SERN', 'HTML ES6+', 'CSS 5', 'Javascript', 'C#', 'Node.js', 'Express', 'SQL', 'MongoDB', 'Azure', 'MSSQL', 'Angular', 'React', 'git']
+  const skills = ['MERN', 'SERN', 'HTML5', 'CSS3', 'JavaScript ES6', 'C#', 'Node.js', 'Express', 'SQL', 'MongoDB', 'Azure', 'MSSQL', 'Angular', 'React', 'git']
 
   return (
     <>
