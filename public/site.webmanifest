@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "name": "Daniel Mont-Eton Portfolio",
   "short_name": "dansirdan",
+=======
+  "name": "",
+  "short_name": "",
+>>>>>>> 350de4ab73b7fc52aec9d96b640f2bfb190b83a5
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -13,7 +18,10 @@
       "type": "image/png"
     }
   ],
+<<<<<<< HEAD
   "start_url": ".",
+=======
+>>>>>>> 350de4ab73b7fc52aec9d96b640f2bfb190b83a5
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone"

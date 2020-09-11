@@ -1,9 +1,9 @@
-import React from "react";
-import { render } from "@testing-library/react";
-import App from "./App";
+import React from 'react';
+import { render } from '@testing-library/react';
+import AppContainer from './AppContainer';
 
-test('renders signature "Daniel Mont-Eton"', () => {
-  const { getByText } = render(<App />);
-  const signature = getByText(/Dan Mont-Eton/i);
-  expect(signature).toBeInTheDocument();
+test('renders learn react link', () => {
+  const { getByText } = render(<AppContainer />);
+  const linkElement = getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
 });

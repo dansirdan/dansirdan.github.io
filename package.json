@@ -1,16 +1,27 @@
 {
-  "name": "dansirdan.github.io",
+  "name": "danmonteton",
   "version": "0.1.0",
   "private": true,
   "homepage": "http://dansirdan.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
+    "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
+<<<<<<< HEAD
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
     "react-scroll-parallax": "^2.3.4"
+=======
+    "clipboard-copy": "^3.1.0",
+    "gh-pages": "^3.1.0",
+    "materialize-css": "^1.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-materialize": "^3.5.9",
+    "react-parallax": "^3.0.3",
+    "react-scripts": "^3.4.3"
+>>>>>>> 350de4ab73b7fc52aec9d96b640f2bfb190b83a5
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,8 +45,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "gh-pages": "^3.1.0"
+=======
+>>>>>>> 350de4ab73b7fc52aec9d96b640f2bfb190b83a5
   }
 }

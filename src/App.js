@@ -1,20 +1,23 @@
-import React from "react";
-import { ParallaxProvider } from "react-scroll-parallax";
-import Header from "./sections/Header";
-import About from "./sections/About";
-import Skills from "./sections/Skills";
-import "./App.css";
+import React from 'react';
+import { About, Main, Projects, Skills } from './sections/index';
+import CustomFooter from './components/Footer';
+import CustomFAB from './components/CustomFAB';
+import BlockQuote from './components/BlockQuote';
+// import './App.css';
 
-function App() {
+const App = () => {
+
   return (
-    <ParallaxProvider>
-      <div className="wrapper">
-        <Header />
-        <About />
-        <Skills />
-      </div>
-    </ParallaxProvider>
-  );
-}
+    <div>
+      <Main />
+      <BlockQuote />
+      <About />
+      <Skills />
+      <Projects />
+      <CustomFAB />
+      <CustomFooter />
+    </div>
+  )
+};
 
 export default App;

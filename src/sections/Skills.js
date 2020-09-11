@@ -1,40 +1,24 @@
-import React from "react";
-import { Parallax } from "react-scroll-parallax";
+import React from 'react'
+import { Row, Col } from 'react-materialize';
+import Chips from '../components/Chips';
 
 const Skills = () => {
-  const languages = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "SQL",
-    "C#",
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "SQL",
-    "C#",
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "SQL",
-    "C#",
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "SQL",
-    "C#",
-  ];
   return (
-    <section>
-      <ul>
-        {languages.map((language, index) => (
-          <Parallax x={index % 2 === 0 ? [0, -100] : [-100, 0]}>
-            <li key={index}>{language}</li>
-          </Parallax>
-        ))}
-      </ul>
-    </section>
-  );
-};
+    <div className='section container'>
+      <Row>
+        <Col>
+          <div className='center-align'>
+            <div className='divider' />
+            <br />
+            <Chips />
+            <br />
+            <br />
+            <div className='divider' />
+          </div>
+        </Col>
+      </Row>
+    </div>
+  )
+}
 
 export default Skills;
