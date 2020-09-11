@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # GitHub Pages Portfolio
 
 Explore the [project page](https://github.com/dansirdan/dansirdan.github.io)
@@ -41,7 +40,3 @@ Copyright (c) 2020 Daniel Mont-Eton
 Twitter - [@DanielMont_Eton](https://twitter.com/DanielMont_Eton)
 
 LinkedIn - [LinkedIn](https://www.linkedin.com/in/daniel-mont-eton-43a81055/)
-=======
-# danmonteton
-Professional Portfolio revamp
->>>>>>> 350de4ab73b7fc52aec9d96b640f2bfb190b83a5
