@@ -6,57 +6,41 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 
 const Skills = () => {
-  const frameworks = [
-    "React.js",
-    "Express.js (Node.js)",
-    "AngularJS",
-    "ASP.NET CORE",
+  const skillsets = [
+    { name: "Languages", skills: ["JavaScript", "HTML5", "CSS3", "C#"] },
+      {
+        name: "Frameworks",
+        skills: [
+          "React.js",
+          "Node.js",
+          "Express.js",
+          "AngularJS",
+          "ASP.NET CORE",
+        ],
+      },
+    { name: "Databases", skills: ["SQL", "U-SQL", "NoSQL", "MongoDB"] },
   ];
-  const languages = ["JavaScript", "HTML5", "CSS3"];
-  const databases = ["SQL", "U-SQL", "NoSQL", "MongoDB"];
 
   return (
-    <section>
-      <Typography variant='h2'>Skills</Typography>
+    <section id="skills">
+      <Typography variant='h2' component="h3">Skills</Typography>
       <Grid container spacing={2}>
-        <Grid item xs={12} md={4}>
-          <Card>
-            <CardContent>
-              <Typography variant='h3'>Languages</Typography>
-              {languages.map((lang, key) => (
-                <li key={key}>
-                  <Chip label={lang} />
-                </li>
-              ))}
-            </CardContent>
-          </Card>
-        </Grid>
-        <Grid item xs={12} md={4}>
-          <Card>
-            <CardContent>
-              <Typography variant='h3'>Frameworks</Typography>
-
-              {frameworks.map((framework, key) => (
-                <li key={key}>
-                  <Chip label={framework} />
-                </li>
-              ))}
-            </CardContent>
-          </Card>
-        </Grid>
-        <Grid item xs={12} md={4}>
-          <Card>
-            <CardContent>
-              <Typography variant='h3'>Databases</Typography>
-
-              {databases.map((db, key) => (
-                <li key={key}>
-                  <Chip label={db} />
-                </li>
-              ))}
-            </CardContent>
-          </Card>
-        </Grid>
+        {skillsets.map((set, key1) => {
+          return (
+            <Grid key={key1} item xs={12} sm={4}>
+              <Card>
+                <CardContent>
+                  <Typography variant='h4'>{set.name}</Typography>
+                  {set.skills.map((lang, key2) => (
+                    <li key={key2}>
+                      <Chip label={lang} />
+                    </li>
+                  ))}
+                </CardContent>
+              </Card>
+            </Grid>
+          );
+        })}
       </Grid>
     </section>
   );

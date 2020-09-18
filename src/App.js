@@ -1,26 +1,25 @@
 import React from "react";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import {
-  About,
-  Footer,
-  Header,
-  Pitch,
-  Projects,
-  Quote,
-  Skills,
-} from "./dev_components";
+  createMuiTheme,
+  responsiveFontSizes,
+  ThemeProvider,
+} from "@material-ui/core/styles";
+import { About, Footer, Header, QuoteTransition } from "./dev_sections";
+
+let theme = createMuiTheme();
+theme = responsiveFontSizes(theme);
 
 const App = () => {
   return (
     <React.Fragment>
-      <CssBaseline />
-      <Header />
-      <Quote />
-      <About />
-      <Pitch />
-      <Skills />
-      <Projects />
-      <Footer />
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <Header />
+        <QuoteTransition />
+        <About />
+        <Footer />
+      </ThemeProvider>
     </React.Fragment>
   );
 };

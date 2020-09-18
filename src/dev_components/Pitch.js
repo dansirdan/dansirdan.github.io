@@ -3,8 +3,8 @@ import Typography from '@material-ui/core/Typography';
 
 const Pitch = () => {
     return (
-        <section>
-            <Typography variant='h2'>Pitch</Typography>
+        <section id="pitch">
+            <Typography variant='h2' component="h5">Pitch</Typography>
         </section>
     )
 }
