@@ -10,10 +10,10 @@ const About = () => {
   return (
     <main>
       <Container maxWidth='lg'>
-      <Bio />
-      <Projects/>
-      <Skills />
-      <Pitch />
+        <Bio />
+        <Projects />
+        <Skills />
+        <Pitch />
       </Container>
     </main>
   );

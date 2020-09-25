@@ -3,12 +3,13 @@ import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
 import CardMedia from "@material-ui/core/CardMedia";
+import Social from "../components/Social";
 
 const Bio = () => {
   return (
     <section id='biography'>
-      <Grid container alignItems='center' justify='space-between'>
-        <Grid item xs={12} md={4}>
+      <Grid container alignItems='center' justify='space-between' mx="auto">
+        <Grid item xs={12} md={5}>
           <Card style={{ borderRadius: "50%", maxWidth: 400, margin: "10px auto" }}>
             <CardMedia
               component='img'
@@ -17,12 +18,13 @@ const Bio = () => {
               title='Daniel Mont-Eton 2016'
             />
           </Card>
+          <Social/>
         </Grid>
-        <Grid item xs={12} md={7}>
+        <Grid item xs={12} md={6} lg={7}>
           <Typography variant='h2'>Full Stack Engineer</Typography>
           <hr />
           <Typography variant='body1'>
-            I am deeply passionate about people and technology. My experience
+            <em>I am deeply passionate about people and technology.</em> My experience
             from the professional dance world has shaped me into a highly
             creative, collaborative, and adaptive Full Stack Developer. For the
             past year I have been sharpening my Full Stack skills by Teach
