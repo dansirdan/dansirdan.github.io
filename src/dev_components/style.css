@@ -32,3 +32,18 @@
   transition: max-width 500ms ease-out;
   overflow: hidden;
 }
+
+.xp-enter {
+  opacity: 0;
+}
+.xp-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+.xp-exit {
+  opacity: 1;
+}
+.xp-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
