@@ -1,0 +1,73 @@
+{
+  "projects": [
+    {
+      "title": "Dance Salt Lake",
+      "color": "red",
+      "description": "Bringing Salt Lake City's dance community together in one location.",
+      "userStory": "As a user, I want to be able to see all current and upcoming performances, auditions, classes, and available studio rentals in the greater Salt Lake City area. As a company, I want to be able to post, see, update, and delete specific events.",
+      "tech": [
+        "SERN stack",
+        "authentication",
+        "responsive",
+        "Google Maps API",
+        "Google geolocation API"
+      ],
+      "appLink": "https://dance-salt-lake.herokuapp.com/",
+      "repoLink": "https://github.com/dansirdan/dance-salt-lake",
+      "modalImage": {
+        "src": "images/projects/1/calendar.JPG",
+        "alt": "calendar"
+      }
+    },
+    {
+      "title": "React Robot",
+      "color": "orange",
+      "description": "Test your memory, save your score, and battle for the #1 spot.",
+      "userStory": "As a user, I want to be able to save my highscore and see other users' highscores.",
+      "tech": [
+        "SERN stack",
+        "react hooks",
+        "responsive"
+      ],
+      "appLink": "https://react-robotv2.herokuapp.com/",
+      "repoLink": "https://github.com/dansirdan/react-robot-v2",
+      "modalImage": {
+        "src": "images/apps/reactRobot.JPG",
+        "alt": "react robot memory game"
+      }
+    },
+    {
+      "title": "Rock Paper Scissors",
+      "color": "lime",
+      "description": "Two-player RPS game with a built in chat feature.",
+      "userStory": "As a user, I want to be able to play a game of rock paper scissors with another user, and be able to chat.",
+      "tech": [
+        "Github pages",
+        "firebase integration",
+        "chat"
+      ],
+      "appLink": "https://dansirdan.github.io/rock_paper_scissors/",
+      "repoLink": "https://github.com/dansirdan/rock_paper_scissors",
+      "modalImage": {
+        "src": "images/apps/rps.gif",
+        "alt": "rock-paper-scissors gif"
+      }
+    },
+    {
+      "title": "Anime Finder",
+      "color": "green",
+      "description": "Take the Anime Finder quiz to get paired with an anime genre based off a set of personality questions.",
+      "userStory": "As a user, I want to be able to take a quiz and be paired with an anime.",
+      "tech": [
+        "media",
+        "form validation"
+      ],
+      "appLink": "https://anime-finder.herokuapp.com/home",
+      "repoLink": "https://github.com/dansirdan/anime-finder",
+      "modalImage": {
+        "src": "images/apps/anime_finder.JPG",
+        "alt": "anime finder"
+      }
+    }
+  ]
+}
