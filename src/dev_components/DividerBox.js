@@ -3,7 +3,7 @@ import Box from "@material-ui/core/Box";
 import Typography from "@material-ui/core/Typography";
 import { useScrollPercentage } from "react-scroll-percentage";
 
-const DividerBox = () => {
+const DividerBox = ({title}) => {
   const [ref, percentage] = useScrollPercentage({
     threshold: 0,
   });
@@ -23,8 +23,8 @@ const DividerBox = () => {
           display='block'
           whiteSpace='nowrap'
           overflow='hidden'
-          letterSpacing={35 - percentage.toPrecision(2) * 35}>
-          Projects / Skills
+          letterSpacing={40 - percentage.toPrecision(2) * 35}>
+          {title}
         </Box>
       </Typography>
     </Box>

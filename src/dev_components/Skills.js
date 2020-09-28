@@ -105,16 +105,6 @@ const Skills = () => {
               </FormControl>
             </Grid>
           </Grid>
-          {/* <Grid item container alignItems='center' spacing={2} direction='row'> */}
-            <Grid item xs={12}>
-              <ColorButton
-                variant='contained'
-                color='primary'
-                onClick={() => setYearXP(!yearXP)}>
-                Change Scale to {yearXP ? "Score" : "Year"}
-              </ColorButton>
-            </Grid>
-          {/* </Grid> */}
           <Grid
             container
             item
@@ -206,13 +196,23 @@ const Skills = () => {
             </Box>
           </Grid>
           <Grid item>
-              <Typography variant='subtitle1' display='inline'>
-                Current Scale:{" "}
-              </Typography>
-              <Typography display='inline' variant='subtitle2'>
-                {yearXP ? "Years of Experience" : "Self-eval Score (out of 10)"}
-              </Typography>
-            </Grid>
+            <Typography variant='subtitle1' display='inline'>
+              Current Scale:{" "}
+            </Typography>
+            <Typography display='inline' variant='subtitle2'>
+              {yearXP ? "Years of Experience" : "Self-eval Score (out of 10)"}
+            </Typography>
+          </Grid>
+          <Grid item xs={12}>
+            <Box display='flex' justifyContent='center'>
+              <ColorButton
+                variant='contained'
+                color='primary'
+                onClick={() => setYearXP(!yearXP)}>
+                Change Scale to {yearXP ? "Score" : "Years"}
+              </ColorButton>
+            </Box>
+          </Grid>
         </Grid>
       </Paper>
     </Container>

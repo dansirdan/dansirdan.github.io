@@ -1,20 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
 import CardMedia from "@material-ui/core/CardMedia";
 import Social from "../components/Social";
-import { useScrollPercentage } from "react-scroll-percentage";
-import green from "@material-ui/core/colors/green";
-import Box from "@material-ui/core/Box";
+// import { useScrollPercentage } from "react-scroll-percentage";
 import Container from "@material-ui/core/Container";
 
 const Bio = () => {
-  const [ref, percentage] = useScrollPercentage({
-    threshold: 0,
-  });
+  // const [ref, percentage] = useScrollPercentage({
+  //   threshold: 0,
+  // });
 
-  console.log(percentage.toPrecision(2));
   return (
     <Container maxWidth='lg' component='section' id='biography'>
       <Grid container alignItems='center' justify='space-between' mx='auto'>
@@ -33,7 +30,7 @@ const Bio = () => {
             />
           </Card>
           <Social />
-          <div ref={ref} />
+          {/* <div ref={ref} /> */}
         </Grid>
         <Grid item xs={12} md={6} lg={7}>
           <Typography variant='h2'>Full Stack Engineer</Typography>
