@@ -9,14 +9,11 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
-    "clipboard-copy": "^3.1.0",
     "gh-pages": "^3.1.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-parallax": "^3.0.3",
     "react-scripts": "^3.4.3",
     "react-scroll-percentage": "^4.2.0",
-    "react-spring": "^8.0.27",
     "react-transition-group": "^4.4.1"
   },
   "scripts": {
