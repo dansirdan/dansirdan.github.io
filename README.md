@@ -40,7 +40,3 @@ Copyright (c) 2020 Daniel Mont-Eton
 Twitter - [@DanielMont_Eton](https://twitter.com/DanielMont_Eton)
 
 LinkedIn - [LinkedIn](https://www.linkedin.com/in/daniel-mont-eton-43a81055/)
-
-
-CONTRIBUTIONS
-Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>Icons made by <a href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
