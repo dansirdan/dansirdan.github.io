@@ -1,12 +1,12 @@
 import React from 'react';
-import { Row } from 'react-materialize';
+import Grid from '@material-ui/core/Grid'
 import './style.css';
 
 const Social = () => {
 
   return (
     <div className='section container'>
-      <Row className='center-align'>
+      <Grid container direction="row" justify="center" alignItems="center">
         {/* IMPORTED FROM PREVIOUS PORTFOLIO */}
         {/* TODO:
               - create list of icons
@@ -43,7 +43,7 @@ const Social = () => {
             </a>
           </li>
         </ul>
-      </Row>
+        </Grid>
     </div>
   );
 };

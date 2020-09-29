@@ -1,0 +1,49 @@
+.project-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.project-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.project-exit {
+  opacity: 1;
+}
+.project-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.skills-enter {
+  max-width: 0px;
+  overflow: hidden;
+}
+.skills-enter-active {
+  max-width: 100%;
+  transition: max-width 500ms ;
+}
+.skills-exit {
+  max-width: 100%;
+}
+.skills-exit-active {
+  max-width: 0%;
+  transition: max-width 500ms ease-out;
+  overflow: hidden;
+}
+
+.xp-enter {
+  opacity: 0;
+}
+.xp-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+.xp-exit {
+  opacity: 1;
+}
+.xp-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}

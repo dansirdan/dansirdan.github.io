@@ -1,23 +1,27 @@
-import React from 'react';
-import { About, Main, Projects, Skills } from './sections/index';
-import CustomFooter from './components/Footer';
-import CustomFAB from './components/CustomFAB';
-import BlockQuote from './components/BlockQuote';
-// import './App.css';
+import React from "react";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import {
+  createMuiTheme,
+  responsiveFontSizes,
+  ThemeProvider,
+} from "@material-ui/core/styles";
+import { About, Footer, Header, QuoteTransition } from "./dev_sections";
+
+let theme = createMuiTheme();
+theme = responsiveFontSizes(theme);
 
 const App = () => {
-
   return (
-    <div>
-      <Main />
-      <BlockQuote />
-      <About />
-      <Skills />
-      <Projects />
-      <CustomFAB />
-      <CustomFooter />
-    </div>
-  )
+    <React.Fragment>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <Header />
+        <QuoteTransition />
+        <About />
+        <Footer />
+      </ThemeProvider>
+    </React.Fragment>
+  );
 };
 
 export default App;
