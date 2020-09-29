@@ -1,24 +1,26 @@
 import React from "react";
-import { About, Main, Projects, Skills } from "./sections/index";
-import CustomFooter from "./components/Footer";
-import CustomFAB from "./components/CustomFAB";
-import BlockQuote from "./components/BlockQuote";
-import ScrollEffect from "./components/ReactScroll/scrolltest";
-// import './App.css';
+import CssBaseline from "@material-ui/core/CssBaseline";
+import {
+  createMuiTheme,
+  responsiveFontSizes,
+  ThemeProvider,
+} from "@material-ui/core/styles";
+import { About, Footer, Header, QuoteTransition } from "./dev_sections";
+
+let theme = createMuiTheme();
+theme = responsiveFontSizes(theme);
 
 const App = () => {
   return (
-    <div>
-      <ScrollEffect>
-        <Main />
-        <BlockQuote />
+    <React.Fragment>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <Header />
+        <QuoteTransition />
         <About />
-        <Skills />
-        <Projects />
-        <CustomFAB />
-        <CustomFooter />
-      </ScrollEffect>
-    </div>
+        <Footer />
+      </ThemeProvider>
+    </React.Fragment>
   );
 };
 
