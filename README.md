@@ -17,7 +17,7 @@ View the [github-pages](https://dansirdan.github.io/)
 
 This project is my ongoing playground for my professional portfolio. From continually updating my skills and my resume to implementing new features and leveling up my web development, I hope you'll give it a glance. I was once a professional dancer and it has been ingrained into my soul and my soles (dance pun) that I must continually improve. Please check me out on LinkedIn, Twitter, and Instagram.
 
-![Project Screenshot](assets/images/readmeimg.png)
+![Project Screenshot](public/images/material-ui-chart.gif)
 
 ### Built With
 
